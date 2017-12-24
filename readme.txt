@@ -71,7 +71,7 @@ typedef struct student{
 	char stu_name[USER_NAME_LEN+1];
 	COURSE course[COURSE_NUM];
 	struct student *next;
-}STUDENT,*pSTUDENT;   //学生信息机构体
+}STUDENT,*pSTUDENT;   //学生信息结构体
 
 
 ----------------------------------------------------------------------------------------
