@@ -82,4 +82,4 @@ Linux 下的是在Linux ubuntu 4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 
 ****注****
 windows版本随意使用;
 Linux版本输入信息错误不能退格删除，只能重启;发送SIGINT信号结束进程
-Linux版本提示输入信息继续的时候不要出入回车，其他都行;
+Linux版本提示输入信息（任意字符）继续的时候不要输入回车，其他都行;
