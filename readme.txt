@@ -43,16 +43,16 @@ select a number:                                                                
 ----------------------------------------------------------------------------------------
 
 
-系统数据主要存储在三个文件：configure.txt usr_account.txt usr_infor.txt .
+系统数据主要存储在三个文件：configure.txt usr_account.txt student.txt .
 usr_account.txt 主要用于存放用户账户信息,0表示管理员账户，1表示普通用户
 student.txt 主要用于存放学生信息
-configure.txt 主要用于存放配置信息：usr_account.txt,usr_infor.txt的位置信息,根据这个路径信息去读下面两个文件
+configure.txt 主要用于存放配置信息：usr_account.txt student.txt文件的存储位置路径信息,根据这个路径信息去读这两个文件
 
 
 ----------------------------------------------------------------------------------------
 
 
-系统在启动时会根据配置文件里的内容去相应文件里去加载账户信息和学生信息
+系统在启动时会根据配置文件里的内容找到相应文件并读取出数据来加载账户信息和学生信息
 SIMS 用到的结构体：
 typedef struct user{
 	char user_name[USER_NAME_LEN+1];  
