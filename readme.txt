@@ -86,4 +86,4 @@ Linux版本输入信息错误不能退格删除，只能重启;发送SIGINT信�
 Linux版本提示输入信息（任意字符）继续的时候不要输入回车，其他都行;
 
 
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+
